@@ -1,6 +1,7 @@
 
 import './App.css'
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import { UserLayouts } from './components/Layouts/UserLayouts'
 function App() {
 
 
@@ -8,7 +9,7 @@ function App() {
     <>
     <BrowserRouter>
      <Routes>
-      <Route path='/' element={}>
+      <Route path='/' element={<UserLayouts/>}>
 
       </Route>
       <Route>
