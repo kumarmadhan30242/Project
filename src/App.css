@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monsieur+La+Doulaise&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sekuya&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-monsieur: "Monsieur La Doulaise", cursive;
+  --font-sekuya: "Sekuya", sans-serif;
+}
+
+#root{
+  font-family:"Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
